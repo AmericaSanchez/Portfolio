@@ -285,7 +285,7 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
@@ -803,4 +803,17 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+}
+
+.list{
+
+        display: grid; !important
+
+}
+
+.galeria{
+            width:100%;
+            max-width:960px;
+            column-count: 3;
+           
 }
